@@ -1,4 +1,4 @@
-name: CI Tests for exciting
+name: CI Tests for exciting fork
 
 on: [push, pull_request]
 
