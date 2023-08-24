@@ -41,8 +41,8 @@ jobs:
 
       - name: Build
         run: |
-          - cp build/platforms/make.inc.gfortran8-9 build/make.inc
-          - make mpiandsmp -j 4
+          cp build/platforms/make.inc.gfortran8-9 build/make.inc
+          make mpiandsmp -j 4
 
       - name: Application Tests
         run: |
