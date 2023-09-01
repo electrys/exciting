@@ -47,7 +47,7 @@ jobs:
 
       - name: Application Tests
         run: |
-          pip install tools/exciting_tools/
+          pip install -e tools/exciting_tools/
           cd test
           # python3 runtest.py -e exciting_mpismp 1
-          python3 runtest.py -t groundstate-GGA_PBE-Ar -e exciting_mpismp -np 1 -omp 4 -handle-errors
+          python3 runtest.py -t groundstate-GGA_PBE-Ar -e exciting_mpismp -np 1 -omp 4
